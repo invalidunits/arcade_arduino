@@ -26,8 +26,7 @@ namespace Coin {
             200,
         };
     
-    // Because 
-    #define COIN_VALUE(signal) pgm_read_byte(default_coin_values + signal) 
+    #define COIN_VALUE(signal) pgm_read_byte(default_coin_values + signal); 
     #endif 
 
     
